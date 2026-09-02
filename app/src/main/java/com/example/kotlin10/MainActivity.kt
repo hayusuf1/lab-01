@@ -27,7 +27,6 @@ class MainActivity : ComponentActivity() {
         pets.add(dog)
         pets.add(scorpion)
 
-        println(pets)
 
         // OR val pets= mutableListOf(cat, dog, scorpion)
 
@@ -37,7 +36,7 @@ class MainActivity : ComponentActivity() {
         pettablePets.add(dog)
        // pettablePets.add(scorpion)
 
-        println(pettablePets)
+
         // Or val pettablePets = mutableListOf<Pettable>(cat, dog, scorpion)
 
         val happy = Happy("2026-09-01")
@@ -45,6 +44,5 @@ class MainActivity : ComponentActivity() {
 
         val petMoods = mutableListOf(happy, sad)
 
-        println(petMoods)
     }
 }
